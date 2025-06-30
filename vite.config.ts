@@ -16,6 +16,7 @@ export default defineConfig(({ mode }) => ({
   plugins: [
     react(),
     mode === 'development' && componentTagger(),
+    // Add the static copy plugin to copy index.html from src to dist during build
   ].filter(Boolean),
 
   resolve: {
