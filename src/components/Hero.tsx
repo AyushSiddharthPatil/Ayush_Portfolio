@@ -13,11 +13,6 @@ const Hero = () => {
 
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-purple-50 via-pink-50 to-orange-50">
-      {/* Decorative elements */}
-      <div className="absolute top-20 left-10 w-20 h-20 bg-orange-200 rounded-full opacity-60 animate-pulse"></div>
-      <div className="absolute top-40 right-20 w-16 h-16 bg-purple-200 rounded-full opacity-40 animate-bounce"></div>
-      <div className="absolute bottom-20 left-20 w-12 h-12 bg-pink-200 rounded-full opacity-50"></div>
-      
       <div className="container mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
         <div className="space-y-8 animate-fade-in">
           <div className="space-y-4">
