@@ -18,8 +18,7 @@ const Hero = () => {
           <div className="space-y-4">
             <h1 className="text-5xl lg:text-6xl font-bold text-gray-800 leading-tight">
               Hi! I Am <br />
-              <span className="text-orange-500">Ayush Siddharth</span> <br />
-              Patil
+              <span className="text-orange-500">Ayush</span> Patil
             </h1>
             <p className="text-xl text-gray-600 max-w-lg">
               Software Developer and AI enthusiast passionate about building scalable solutions with cutting-edge technology.

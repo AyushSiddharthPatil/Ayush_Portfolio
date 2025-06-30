@@ -34,11 +34,11 @@ const About = () => {
 
             <div className="grid grid-cols-2 gap-4">
               <div className="text-center p-4">
-                <div className="text-3xl font-bold text-orange-500">5+</div>
+                <div className="text-3xl font-bold text-orange-500">3</div>
                 <div className="text-sm text-gray-600">AI Projects</div>
               </div>
               <div className="text-center p-4">
-                <div className="text-3xl font-bold text-orange-500">10+</div>
+                <div className="text-3xl font-bold text-orange-500">10</div>
                 <div className="text-sm text-gray-600">Technologies</div>
               </div>
             </div>
