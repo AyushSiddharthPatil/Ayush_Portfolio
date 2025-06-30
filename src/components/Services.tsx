@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Card } from '@/components/ui/card';
-import { Code, Star, Search, Design } from 'lucide-react';
+import { Code, Star, Search, Palette } from 'lucide-react';
 
 const Services = () => {
   const services = [
@@ -27,7 +27,7 @@ const Services = () => {
       color: "blue"
     },
     {
-      icon: Design,
+      icon: Palette,
       title: "Software Architecture",
       description: "Designing robust and maintainable software solutions with best practices.",
       skills: ["System Design", "Database Design", "API Development"],
