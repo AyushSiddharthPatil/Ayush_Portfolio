@@ -12,7 +12,8 @@ const Portfolio = () => {
       technologies: ["Python", "Beautiful Soup", "Machine Learning", "Data Analysis"],
       icon: Search,
       color: "from-orange-400 to-red-400",
-      status: "Featured Project"
+      status: "Featured Project",
+      codeUrl: "https://github.com/AyushSiddharthPatil/Amazon-Tracker.git"
     },
     {
       title: "AI-Powered Chat Application",
@@ -75,10 +76,22 @@ const Portfolio = () => {
                   <Button variant="outline" size="sm" className="text-xs">
                     View Demo
                   </Button>
-                  <Button variant="outline" size="sm" className="text-xs">
-                    <Code className="w-3 h-3 mr-1" />
-                    Code
-                  </Button>
+                  {project.codeUrl ? (
+                    <Button 
+                      variant="outline" 
+                      size="sm" 
+                      className="text-xs"
+                      onClick={() => window.open(project.codeUrl, '_blank')}
+                    >
+                      <Code className="w-3 h-3 mr-1" />
+                      Code
+                    </Button>
+                  ) : (
+                    <Button variant="outline" size="sm" className="text-xs">
+                      <Code className="w-3 h-3 mr-1" />
+                      Code
+                    </Button>
+                  )}
                 </div>
               </div>
             </Card>
